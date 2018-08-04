@@ -1,0 +1,301 @@
+body {
+    background-color: white;
+	font-family: Roboto;
+	font-size: 15px;
+	color: 656565;
+	max-width:1300px;
+	display:block;
+	clear: both;
+	margin: 0 auto;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+a{
+	color: #333333;
+}
+a:visited{
+	color: #333333;
+}
+ul{}
+ul li{
+	list-style-type: none;
+}
+.logo{
+	display:block;
+	float:left;
+	position:relative;
+	margin-left:60px;
+}
+
+.header{
+	width:auto;
+	min-height:80px;
+	overflow:auto;
+	background-color: #f2f2f2;	
+	padding:10px;
+	display:block;
+	color: white;
+}
+.body{
+	min-height:460px;
+	width:auto;
+	overflow:auto;
+	padding:10px 50px;
+	display:block;
+	color: #333333;
+}
+.ft{
+	background-color: #1a1a1a;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height:15px;
+	color: e6e6e6;
+	max-width:1300px;
+	min-height:100px;
+	display:block;
+	clear: both;
+	margin: 0 auto;
+	padding:10px 70px;
+}
+.login_area{
+	display:block;
+	float:right;
+	min-width:200px;
+	margin-right:60px;
+	}
+.main{
+	max-width:1080px;
+	height:auto;
+	margin:0 auto;
+	align-content;center;
+}
+.main_content{
+	margin: 20px;
+	width:300px;
+	height: 360px;
+	padding:10px;
+	display:block;
+	float:left;
+	color: #333333;
+	background-color:#e6e6e6;
+	border-radius:10px;
+	box-shadow: 1px 1px 1px #666666;
+}
+	.main_content p{
+		font-size:28px;
+		text-align:center;
+		margin: 15px 10px;
+	}
+	.main_content img{
+		width: 300px;
+		height:300px;
+		border-radius:10px;
+	}
+.main_content:hover{
+	margin: 20px;
+	width:300px;
+	height: 360px;
+	padding:10px;
+	display:block;
+	float:left;
+	background-color:#cccccc;
+	transition:0.5s;
+	border-radius:10px;
+	box-shadow: 1px 1px 1px;
+}
+#header_name{
+	display:block;
+	position:relative;
+	float:left;
+	font-size:32px;
+	height:auto;
+	max-width:650px;
+	margin:25px 20px 25px 40px; 
+	color: #333333;
+	text-align:center;
+}
+#bt_login{
+	margin:20px;
+	width:130px;
+	height:30px;
+	font-size:18px;
+	color: #333333;
+	border: 2px solid #333333;
+    border-radius: 25px;
+	text-align:center;
+	padding-top:10px;
+}
+.top_menu{
+	display: block;	
+	min-height:25px;
+	border-bottom: 1px solid #e3e3e3;	
+	padding: 10px;
+	
+}
+	.top_menu a{
+		width: auto;
+		float: right;
+		color: #333333;
+		text-decoration:none;
+		font-size:18px;
+		margin: 0px  40px;
+	}
+	.top_menu a:actived{
+		width: auto;
+		float: right;
+		color: #004d00;
+		text-decoration:none;
+		font-size:18px;
+	}
+	.top_menu a:hover{
+		width: auto;
+		float: right;
+		color: #004d00;
+		font-weight: bold;
+		text-decoration:none;
+	}
+
+.left_menu{
+	display: block;	
+	width:200px;
+	height:auto;
+	overflow:auto;
+	border-right: 1px solid #e3e3e3;	
+	padding:10px 20px 20px 10px;
+	float:left;
+	
+}
+	.left_menu a{
+		width: auto;
+		color: #333333;
+		text-decoration:none;
+		font-size:16px;
+		margin: 10px 0px 5px 20px;
+	}
+	.left_menu a:actived{
+		color: #004d00;
+		text-decoration:none;
+		font-size:18px;
+	}
+	.left_menu a:hover{
+
+		color: #008ae6;
+		text-decoration:none;
+	}
+
+.load_vanban{
+	display:block;
+	float: left;
+	width:80%;
+	height: 500px;
+	overflow:auto;
+}
+.load_vanban_opt{
+	width:80%;
+	display:block;
+	float:left;
+	margin:10px 50px;
+	
+}
+.search_box{
+	width:530px;
+	height:50px;
+	margin:15px;
+}
+.bt_search{
+	display:block;
+	float:right;
+	width:100px;
+	height:40px;
+	background-color: #ff9900;
+	border-radius: 10px;
+	color:white;
+	text-align: center;
+	box-shadow: 1px 1px 1px #e3e3e3;
+	border:0px;
+	font-size:16px;
+}
+.vanban{
+	width:60%;
+	overflow:auto;	
+	display:block;
+	border:1px solid #e3e3e3;
+	border-radius:10px;
+	padding:10px;
+	text-align:left;
+}
+	.vanban a{
+		margin-top:20px;
+		text-decoration:none;
+		float:right;
+		margin-right:20px;
+	}
+	.vanban a:hover{
+		color: #008ae6;
+		text-decoration:none;
+	}
+	.vanban a img:hover{
+	  -webkit-filter: drop-shadow(2px 2px 0 #e3e3e3)
+			  drop-shadow(-2px -2px 0 #e3e3e3);
+				filter: drop-shadow(2px 2px 0 #e3e3e3) 
+				drop-shadow(-2px -2px 0 #e3e3e3);
+	}
+
+	
+#tb_search{
+	width:400px;
+	height:40px;
+}
+
+@media screen and (max-width: 850px){
+	.logo{
+	display:block;
+	float:left;
+	position:relative;
+	margin-left:10px;
+	}
+
+	.header{
+		width:auto;
+		min-height:80px;
+		overflow:auto;
+		background-color: #f2f2f2;	
+		padding:10px;
+		display:block;
+		color: white;
+	}
+	.login_area{
+		display:block;
+		float:right;
+		max-width:720px;
+		padding:0;
+		margin:0;
+		}
+
+	#header_name{
+		display:block;
+		float:left;
+		font-size:28px;
+		height:auto;
+		max-width:650px;
+		margin:25px 20px;
+		color: #333333;
+		text-align:center;
+	}
+	#bt_login{
+		margin:10px;
+		width:100px;
+		height:20px;
+		font-size:15px;
+		color: #333333;
+		border: 2px solid #333333;
+		border-radius: 20px;
+		text-align:center;
+		padding-top:7px;
+}
+
+	
+}
